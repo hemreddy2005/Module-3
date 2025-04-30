@@ -10,8 +10,19 @@ To write a Python program that calculates the **sum of all elements** in a list.
 
 ## 🧾 Program
 
-Add code here
+```python
+def calculate_sum(numbers):
+    return sum(numbers)
+
+numbers = [1, 2, 3, 4, 5]
+result = calculate_sum(numbers)
+print(f"The sum of all elements in the list is: {result}")
+
+```
 
 ## Output
 
+![image](https://github.com/user-attachments/assets/0a6ca62a-1306-4838-b3cb-504bbda6832b)
+
 ## Result
+Hence the program is executed successfully.
